@@ -1,0 +1,8 @@
+# Packet readout of pcap_files/normal.pcap (3 packets)
+
+[1] 192.168.56.20:631 -> 192.168.56.20:631 UDP 136B
+    BROWSE: 0x00000000 0x3 ipp://192.168.56.20:631/printers/OfficePrinter "Lab" "OfficePrinter" "HP LaserJet Pro (lab)"
+[2] 192.168.56.20:631 -> 192.168.56.20:631 UDP 136B
+    BROWSE: 0x00000000 0x3 ipp://192.168.56.20:631/printers/OfficePrinter "Lab" "OfficePrinter" "HP LaserJet Pro (lab)"
+[3] 192.168.56.20:631 -> 192.168.56.20:631 UDP 136B
+    BROWSE: 0x00000000 0x3 ipp://192.168.56.20:631/printers/OfficePrinter "Lab" "OfficePrinter" "HP LaserJet Pro (lab)"

@@ -1,0 +1,44 @@
+CUPS detector started 2026-11-08T15:11:13
+Allowlist: ['192.168.56.20']  Allowed ports: [631]
+Analysing 9 packet(s) from pcap_files/attack_variations.pcap
+
+[ALERT][HIGH] 2026-11-08T15:11:05 192.168.56.10 :: unauthorized-advertisement :: printer advertised from non-allowlisted host: ipp://192.168.56.10:8631/printers/EvilPrinter
+[ALERT][HIGH] 2026-11-08T15:11:05 192.168.56.10 :: suspicious-ipp-uri :: URI points to non-allowlisted host 192.168.56.10: ipp://192.168.56.10:8631/printers/EvilPrinter
+[ALERT][MEDIUM] 2026-11-08T15:11:05 192.168.56.10 :: suspicious-ipp-port :: advertised printer uses unusual port 8631: ipp://192.168.56.10:8631/printers/EvilPrinter
+[ALERT][HIGH] 2026-11-08T15:11:05 192.168.56.10 :: unauthorized-advertisement :: printer advertised from non-allowlisted host: ipp://192.168.56.10:8631/printers/EvilPrinter
+[ALERT][HIGH] 2026-11-08T15:11:05 192.168.56.10 :: suspicious-ipp-uri :: URI points to non-allowlisted host 192.168.56.10: ipp://192.168.56.10:8631/printers/EvilPrinter
+[ALERT][MEDIUM] 2026-11-08T15:11:05 192.168.56.10 :: suspicious-ipp-port :: advertised printer uses unusual port 8631: ipp://192.168.56.10:8631/printers/EvilPrinter
+[ALERT][HIGH] 2026-11-08T15:11:05 192.168.56.10 :: unauthorized-advertisement :: printer advertised from non-allowlisted host: ipp://192.168.56.10:8631/printers/EvilPrinter
+[ALERT][HIGH] 2026-11-08T15:11:05 192.168.56.10 :: suspicious-ipp-uri :: URI points to non-allowlisted host 192.168.56.10: ipp://192.168.56.10:8631/printers/EvilPrinter
+[ALERT][MEDIUM] 2026-11-08T15:11:05 192.168.56.10 :: suspicious-ipp-port :: advertised printer uses unusual port 8631: ipp://192.168.56.10:8631/printers/EvilPrinter
+[ALERT][HIGH] 2026-11-08T15:11:07 192.168.56.10 :: unauthorized-advertisement :: printer advertised from non-allowlisted host: ipp://192.168.56.10:9100/printers/EvilPrinter
+[ALERT][HIGH] 2026-11-08T15:11:07 192.168.56.10 :: suspicious-ipp-uri :: URI points to non-allowlisted host 192.168.56.10: ipp://192.168.56.10:9100/printers/EvilPrinter
+[ALERT][MEDIUM] 2026-11-08T15:11:07 192.168.56.10 :: suspicious-ipp-port :: advertised printer uses unusual port 9100: ipp://192.168.56.10:9100/printers/EvilPrinter
+[ALERT][HIGH] 2026-11-08T15:11:07 192.168.56.10 :: unauthorized-advertisement :: printer advertised from non-allowlisted host: ipp://192.168.56.10:9100/printers/EvilPrinter
+[ALERT][HIGH] 2026-11-08T15:11:07 192.168.56.10 :: suspicious-ipp-uri :: URI points to non-allowlisted host 192.168.56.10: ipp://192.168.56.10:9100/printers/EvilPrinter
+[ALERT][MEDIUM] 2026-11-08T15:11:07 192.168.56.10 :: suspicious-ipp-port :: advertised printer uses unusual port 9100: ipp://192.168.56.10:9100/printers/EvilPrinter
+[ALERT][MEDIUM] 2026-11-08T15:11:07 192.168.56.10 :: abnormal-discovery-rate :: 6 advertisements in 10.0s window
+[ALERT][HIGH] 2026-11-08T15:11:07 192.168.56.10 :: unauthorized-advertisement :: printer advertised from non-allowlisted host: ipp://192.168.56.10:9100/printers/EvilPrinter
+[ALERT][HIGH] 2026-11-08T15:11:07 192.168.56.10 :: suspicious-ipp-uri :: URI points to non-allowlisted host 192.168.56.10: ipp://192.168.56.10:9100/printers/EvilPrinter
+[ALERT][MEDIUM] 2026-11-08T15:11:07 192.168.56.10 :: suspicious-ipp-port :: advertised printer uses unusual port 9100: ipp://192.168.56.10:9100/printers/EvilPrinter
+[ALERT][MEDIUM] 2026-11-08T15:11:09 192.168.56.10 :: abnormal-discovery-rate :: 7 advertisements in 10.0s window
+[ALERT][HIGH] 2026-11-08T15:11:09 192.168.56.10 :: unauthorized-advertisement :: printer advertised from non-allowlisted host: ipp://192.168.56.10:8631/printers/EvilPrinter
+[ALERT][HIGH] 2026-11-08T15:11:09 192.168.56.10 :: suspicious-ipp-uri :: URI points to non-allowlisted host 192.168.56.10: ipp://192.168.56.10:8631/printers/EvilPrinter
+[ALERT][MEDIUM] 2026-11-08T15:11:09 192.168.56.10 :: suspicious-ipp-port :: advertised printer uses unusual port 8631: ipp://192.168.56.10:8631/printers/EvilPrinter
+[ALERT][MEDIUM] 2026-11-08T15:11:09 192.168.56.10 :: abnormal-protocol-fields :: type=0xffffffff state=0x7f out of normal range
+[ALERT][LOW] 2026-11-08T15:11:09 192.168.56.10 :: oversized-field :: browse field exceeds expected length
+[ALERT][MEDIUM] 2026-11-08T15:11:09 192.168.56.10 :: abnormal-discovery-rate :: 8 advertisements in 10.0s window
+[ALERT][HIGH] 2026-11-08T15:11:09 192.168.56.10 :: unauthorized-advertisement :: printer advertised from non-allowlisted host: ipp://192.168.56.10:8631/printers/EvilPrinter
+[ALERT][HIGH] 2026-11-08T15:11:09 192.168.56.10 :: suspicious-ipp-uri :: URI points to non-allowlisted host 192.168.56.10: ipp://192.168.56.10:8631/printers/EvilPrinter
+[ALERT][MEDIUM] 2026-11-08T15:11:09 192.168.56.10 :: suspicious-ipp-port :: advertised printer uses unusual port 8631: ipp://192.168.56.10:8631/printers/EvilPrinter
+[ALERT][MEDIUM] 2026-11-08T15:11:09 192.168.56.10 :: abnormal-protocol-fields :: type=0xffffffff state=0x7f out of normal range
+[ALERT][LOW] 2026-11-08T15:11:09 192.168.56.10 :: oversized-field :: browse field exceeds expected length
+[ALERT][MEDIUM] 2026-11-08T15:11:09 192.168.56.10 :: abnormal-discovery-rate :: 9 advertisements in 10.0s window
+[ALERT][HIGH] 2026-11-08T15:11:09 192.168.56.10 :: unauthorized-advertisement :: printer advertised from non-allowlisted host: ipp://192.168.56.10:8631/printers/EvilPrinter
+[ALERT][HIGH] 2026-11-08T15:11:09 192.168.56.10 :: suspicious-ipp-uri :: URI points to non-allowlisted host 192.168.56.10: ipp://192.168.56.10:8631/printers/EvilPrinter
+[ALERT][MEDIUM] 2026-11-08T15:11:09 192.168.56.10 :: suspicious-ipp-port :: advertised printer uses unusual port 8631: ipp://192.168.56.10:8631/printers/EvilPrinter
+[ALERT][MEDIUM] 2026-11-08T15:11:09 192.168.56.10 :: abnormal-protocol-fields :: type=0xffffffff state=0x7f out of normal range
+[ALERT][LOW] 2026-11-08T15:11:09 192.168.56.10 :: oversized-field :: browse field exceeds expected length
+
+Exported 37 alert(s) to evidence/alerts_attack.json
+Total alerts: 37

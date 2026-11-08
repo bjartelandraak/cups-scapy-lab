@@ -1,0 +1,7 @@
+CUPS detector started 2026-11-08T15:11:12
+Allowlist: ['192.168.56.20']  Allowed ports: [631]
+Analysing 3 packet(s) from pcap_files/normal.pcap
+
+
+Exported 0 alert(s) to evidence/alerts_normal.csv
+Total alerts: 0

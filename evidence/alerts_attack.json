@@ -1,0 +1,261 @@
+[
+  {
+    "timestamp": "2026-11-08T15:11:05",
+    "source": "192.168.56.10",
+    "category": "unauthorized-advertisement",
+    "severity": "HIGH",
+    "detail": "printer advertised from non-allowlisted host: ipp://192.168.56.10:8631/printers/EvilPrinter"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:05",
+    "source": "192.168.56.10",
+    "category": "suspicious-ipp-uri",
+    "severity": "HIGH",
+    "detail": "URI points to non-allowlisted host 192.168.56.10: ipp://192.168.56.10:8631/printers/EvilPrinter"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:05",
+    "source": "192.168.56.10",
+    "category": "suspicious-ipp-port",
+    "severity": "MEDIUM",
+    "detail": "advertised printer uses unusual port 8631: ipp://192.168.56.10:8631/printers/EvilPrinter"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:05",
+    "source": "192.168.56.10",
+    "category": "unauthorized-advertisement",
+    "severity": "HIGH",
+    "detail": "printer advertised from non-allowlisted host: ipp://192.168.56.10:8631/printers/EvilPrinter"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:05",
+    "source": "192.168.56.10",
+    "category": "suspicious-ipp-uri",
+    "severity": "HIGH",
+    "detail": "URI points to non-allowlisted host 192.168.56.10: ipp://192.168.56.10:8631/printers/EvilPrinter"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:05",
+    "source": "192.168.56.10",
+    "category": "suspicious-ipp-port",
+    "severity": "MEDIUM",
+    "detail": "advertised printer uses unusual port 8631: ipp://192.168.56.10:8631/printers/EvilPrinter"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:05",
+    "source": "192.168.56.10",
+    "category": "unauthorized-advertisement",
+    "severity": "HIGH",
+    "detail": "printer advertised from non-allowlisted host: ipp://192.168.56.10:8631/printers/EvilPrinter"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:05",
+    "source": "192.168.56.10",
+    "category": "suspicious-ipp-uri",
+    "severity": "HIGH",
+    "detail": "URI points to non-allowlisted host 192.168.56.10: ipp://192.168.56.10:8631/printers/EvilPrinter"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:05",
+    "source": "192.168.56.10",
+    "category": "suspicious-ipp-port",
+    "severity": "MEDIUM",
+    "detail": "advertised printer uses unusual port 8631: ipp://192.168.56.10:8631/printers/EvilPrinter"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:07",
+    "source": "192.168.56.10",
+    "category": "unauthorized-advertisement",
+    "severity": "HIGH",
+    "detail": "printer advertised from non-allowlisted host: ipp://192.168.56.10:9100/printers/EvilPrinter"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:07",
+    "source": "192.168.56.10",
+    "category": "suspicious-ipp-uri",
+    "severity": "HIGH",
+    "detail": "URI points to non-allowlisted host 192.168.56.10: ipp://192.168.56.10:9100/printers/EvilPrinter"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:07",
+    "source": "192.168.56.10",
+    "category": "suspicious-ipp-port",
+    "severity": "MEDIUM",
+    "detail": "advertised printer uses unusual port 9100: ipp://192.168.56.10:9100/printers/EvilPrinter"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:07",
+    "source": "192.168.56.10",
+    "category": "unauthorized-advertisement",
+    "severity": "HIGH",
+    "detail": "printer advertised from non-allowlisted host: ipp://192.168.56.10:9100/printers/EvilPrinter"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:07",
+    "source": "192.168.56.10",
+    "category": "suspicious-ipp-uri",
+    "severity": "HIGH",
+    "detail": "URI points to non-allowlisted host 192.168.56.10: ipp://192.168.56.10:9100/printers/EvilPrinter"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:07",
+    "source": "192.168.56.10",
+    "category": "suspicious-ipp-port",
+    "severity": "MEDIUM",
+    "detail": "advertised printer uses unusual port 9100: ipp://192.168.56.10:9100/printers/EvilPrinter"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:07",
+    "source": "192.168.56.10",
+    "category": "abnormal-discovery-rate",
+    "severity": "MEDIUM",
+    "detail": "6 advertisements in 10.0s window"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:07",
+    "source": "192.168.56.10",
+    "category": "unauthorized-advertisement",
+    "severity": "HIGH",
+    "detail": "printer advertised from non-allowlisted host: ipp://192.168.56.10:9100/printers/EvilPrinter"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:07",
+    "source": "192.168.56.10",
+    "category": "suspicious-ipp-uri",
+    "severity": "HIGH",
+    "detail": "URI points to non-allowlisted host 192.168.56.10: ipp://192.168.56.10:9100/printers/EvilPrinter"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:07",
+    "source": "192.168.56.10",
+    "category": "suspicious-ipp-port",
+    "severity": "MEDIUM",
+    "detail": "advertised printer uses unusual port 9100: ipp://192.168.56.10:9100/printers/EvilPrinter"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:09",
+    "source": "192.168.56.10",
+    "category": "abnormal-discovery-rate",
+    "severity": "MEDIUM",
+    "detail": "7 advertisements in 10.0s window"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:09",
+    "source": "192.168.56.10",
+    "category": "unauthorized-advertisement",
+    "severity": "HIGH",
+    "detail": "printer advertised from non-allowlisted host: ipp://192.168.56.10:8631/printers/EvilPrinter"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:09",
+    "source": "192.168.56.10",
+    "category": "suspicious-ipp-uri",
+    "severity": "HIGH",
+    "detail": "URI points to non-allowlisted host 192.168.56.10: ipp://192.168.56.10:8631/printers/EvilPrinter"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:09",
+    "source": "192.168.56.10",
+    "category": "suspicious-ipp-port",
+    "severity": "MEDIUM",
+    "detail": "advertised printer uses unusual port 8631: ipp://192.168.56.10:8631/printers/EvilPrinter"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:09",
+    "source": "192.168.56.10",
+    "category": "abnormal-protocol-fields",
+    "severity": "MEDIUM",
+    "detail": "type=0xffffffff state=0x7f out of normal range"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:09",
+    "source": "192.168.56.10",
+    "category": "oversized-field",
+    "severity": "LOW",
+    "detail": "browse field exceeds expected length"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:09",
+    "source": "192.168.56.10",
+    "category": "abnormal-discovery-rate",
+    "severity": "MEDIUM",
+    "detail": "8 advertisements in 10.0s window"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:09",
+    "source": "192.168.56.10",
+    "category": "unauthorized-advertisement",
+    "severity": "HIGH",
+    "detail": "printer advertised from non-allowlisted host: ipp://192.168.56.10:8631/printers/EvilPrinter"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:09",
+    "source": "192.168.56.10",
+    "category": "suspicious-ipp-uri",
+    "severity": "HIGH",
+    "detail": "URI points to non-allowlisted host 192.168.56.10: ipp://192.168.56.10:8631/printers/EvilPrinter"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:09",
+    "source": "192.168.56.10",
+    "category": "suspicious-ipp-port",
+    "severity": "MEDIUM",
+    "detail": "advertised printer uses unusual port 8631: ipp://192.168.56.10:8631/printers/EvilPrinter"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:09",
+    "source": "192.168.56.10",
+    "category": "abnormal-protocol-fields",
+    "severity": "MEDIUM",
+    "detail": "type=0xffffffff state=0x7f out of normal range"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:09",
+    "source": "192.168.56.10",
+    "category": "oversized-field",
+    "severity": "LOW",
+    "detail": "browse field exceeds expected length"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:09",
+    "source": "192.168.56.10",
+    "category": "abnormal-discovery-rate",
+    "severity": "MEDIUM",
+    "detail": "9 advertisements in 10.0s window"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:09",
+    "source": "192.168.56.10",
+    "category": "unauthorized-advertisement",
+    "severity": "HIGH",
+    "detail": "printer advertised from non-allowlisted host: ipp://192.168.56.10:8631/printers/EvilPrinter"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:09",
+    "source": "192.168.56.10",
+    "category": "suspicious-ipp-uri",
+    "severity": "HIGH",
+    "detail": "URI points to non-allowlisted host 192.168.56.10: ipp://192.168.56.10:8631/printers/EvilPrinter"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:09",
+    "source": "192.168.56.10",
+    "category": "suspicious-ipp-port",
+    "severity": "MEDIUM",
+    "detail": "advertised printer uses unusual port 8631: ipp://192.168.56.10:8631/printers/EvilPrinter"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:09",
+    "source": "192.168.56.10",
+    "category": "abnormal-protocol-fields",
+    "severity": "MEDIUM",
+    "detail": "type=0xffffffff state=0x7f out of normal range"
+  },
+  {
+    "timestamp": "2026-11-08T15:11:09",
+    "source": "192.168.56.10",
+    "category": "oversized-field",
+    "severity": "LOW",
+    "detail": "browse field exceeds expected length"
+  }
+]

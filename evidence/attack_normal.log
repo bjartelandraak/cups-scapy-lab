@@ -1,0 +1,16 @@
+2026-11-08 15:11:02,247 [INFO] CUPS discovery demonstration started at 2026-11-08 15:11:02.247071
+2026-11-08 15:11:02,247 [INFO] Target: 192.168.56.20:631  Advertised printer: ipp://192.168.56.20:631/printers/OfficePrinter
+2026-11-08 15:11:02,247 [INFO] DRY-RUN: packets will be crafted/saved but NOT transmitted.
+2026-11-08 15:11:02,247 [INFO] [single] round 1 payload: 0x00000000 0x3 ipp://192.168.56.20:631/printers/OfficePrinter "Lab" "Rogue printer" "HP LaserJet Pro (lab)"
+2026-11-08 15:11:03,253 [INFO] [single] round 2 payload: 0x00000000 0x3 ipp://192.168.56.20:631/printers/OfficePrinter "Lab" "Rogue printer" "HP LaserJet Pro (lab)"
+2026-11-08 15:11:04,254 [INFO] [single] round 3 payload: 0x00000000 0x3 ipp://192.168.56.20:631/printers/OfficePrinter "Lab" "Rogue printer" "HP LaserJet Pro (lab)"
+2026-11-08 15:11:04,259 [INFO] Wrote 3 packet(s) to pcap_files/normal.pcap
+2026-11-08 15:11:04,259 [INFO] Done. 3 advertisement packet(s) processed.
+2026-11-08 15:12:04,589 [INFO] CUPS discovery demonstration started at 2026-11-08 15:12:04.589080
+2026-11-08 15:12:04,589 [INFO] Target: 192.168.56.20:631  Advertised printer: ipp://192.168.56.20:631/printers/OfficePrinter
+2026-11-08 15:12:04,589 [INFO] DRY-RUN: packets will be crafted/saved but NOT transmitted.
+2026-11-08 15:12:04,589 [INFO] [single] round 1 payload: 0x00000000 0x3 ipp://192.168.56.20:631/printers/OfficePrinter "Lab" "OfficePrinter" "HP LaserJet Pro (lab)"
+2026-11-08 15:12:05,595 [INFO] [single] round 2 payload: 0x00000000 0x3 ipp://192.168.56.20:631/printers/OfficePrinter "Lab" "OfficePrinter" "HP LaserJet Pro (lab)"
+2026-11-08 15:12:06,597 [INFO] [single] round 3 payload: 0x00000000 0x3 ipp://192.168.56.20:631/printers/OfficePrinter "Lab" "OfficePrinter" "HP LaserJet Pro (lab)"
+2026-11-08 15:12:06,602 [INFO] Wrote 3 packet(s) to pcap_files/normal.pcap
+2026-11-08 15:12:06,602 [INFO] Done. 3 advertisement packet(s) processed.

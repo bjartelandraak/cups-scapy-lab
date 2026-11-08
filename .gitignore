@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+# ignore only the tool run-logs written at the repo root, keep evidence/*.log
+/cups_attack.log
+/cups_detector.log
