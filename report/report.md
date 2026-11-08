@@ -157,11 +157,19 @@ attacker's IPP endpoint. The detector immediately raised **HIGH** severity
 
 ## 5.3 Experiment 3 — Packet manipulation (three variations)
 
-| # | Label | Manipulation | Detector response |
-|---|-------|--------------|-------------------|
-| 1 | `baseline` | Straight rogue advertisement | unauthorized-advertisement, suspicious-ipp-uri |
-| 2 | `alt-port-spoofed-model` | Alternate port 9100 + spoofed "HP Color LaserJet MFP" + altered state | + suspicious-ipp-port |
-| 3 | `malformed-fields` | `type=0xffffffff`, `state=0x7f`, 200-byte field | + abnormal-protocol-fields, oversized-field |
+Three crafted variations were tested (labels as used by the attack tool):
+
+**Variation 1 — baseline.** A straightforward rogue advertisement.
+Detector response: unauthorized-advertisement and suspicious-ipp-uri.
+
+**Variation 2 — alt-port / spoofed model.** The advertised printer uses an
+alternate port (9100), a spoofed trusted make-and-model
+("HP Color LaserJet MFP") and an altered state field.
+Detector response: the above plus suspicious-ipp-port.
+
+**Variation 3 — malformed fields.** Out-of-range protocol fields
+(type = 0xffffffff, state = 0x7f) and a 200-byte oversized field.
+Detector response: the above plus abnormal-protocol-fields and oversized-field.
 
 ## 5.4 Experiment 4 — Detection results
 
